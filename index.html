@@ -10,10 +10,9 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
 
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
@@ -79,15 +78,17 @@
   Terms
   Privacy -->
 
+  
+
   <nav>
     <div class="logo">
       <img src=".\images\logo.svg" alt="logo">
     </div>
     <div class="options">
       <ul>
-        <li>Features</li>
-        <li>Team</li>
-        <li>Sign in</li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign in</a></li>
       </ul>
     </div>
   </nav>
@@ -99,14 +100,11 @@
         <h1>location, accessible anywhere.</h1>
       </div>
 
-      <p>Fylo stores your most important files in one secure location.Access
-        <br> 
-        them wherever you need, share and
-        collaborate with friends,family, and co-workers.
-      </p>
+      <p> Fylo stores your most important files in one secure location.Access</p>
+      <p>them wherever you need, share and collaborate with friends,family, and co-workers.</p>
 
       <input type="email" placeholder="Enter your email" id="email">
-      <input type="button" value="Get Started" id="button">
+      <button id="button">Get Started</button>
     </div>
     <div class="main_image"><img id="side_image" src=".\images\illustration-1.svg" alt="illustration"></div>
   </section>
@@ -135,6 +133,18 @@
         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
         </p>
 
+        <div class="testimony_content">
+          <img id="avatar-testimonial" src="./images/avatar-testimonial.jpg" alt="avatar-testimonial">
+          <div>
+            <h4>Kyle Burton</h4>
+            <p style="font-size: 18px;"> Founder & CEO, Huddle</p>
+          </div>
+
+
+
+        </div>
+
+
       </div>
 
     </div>
@@ -145,6 +155,68 @@
       </div>
     </div>
   </section>
+
+  <div class="hero2">
+      <div class="side_text3">
+        <h3>Get early access today</h3>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous.If you have any questions, our support team would be happy to help you. 
+        </p>
+      </div>
+
+      <div class="email2">
+        <input type="email" placeholder="Enter your email" id="email2">
+        <input type="button" value="Get Started For Free" id="button2">
+      </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="content1">
+        <img src="./images/logo2.svg" alt="logo" id="logo2">
+        <div class="contact">
+          <div class="phone">
+            <img src="./images/phone.svg" alt="">
+            <p>  Phone: +1-543-123-4567</p>
+          </div>
+
+          <div class="email">
+            <img src="./images/email.svg" alt="email">
+            <p>example@fylo.com</p>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div class="content2">
+        <ul>
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>   
+        </ul>
+      </div>
+
+      <div class="content3">
+        <ul></ul>
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>  
+        </ul>
+      </div>
+
+      <div class="content4">
+        <img src="./images/facebook.svg" alt="facebook">
+        <img src="./images/twitter.svg" alt="twitter">
+        <img src="./images/instagram.svg" alt="instagram">
+        
+      </div>
+
+        
+        
+    </div>
+  </footer>
 
 
 
