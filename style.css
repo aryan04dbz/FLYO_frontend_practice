@@ -19,6 +19,15 @@ nav ul li {
     font-weight: bold;
 }
 
+@media only screen and (max-width:431px){
+    nav ul li{
+        margin:0vw;
+        padding:0px;
+        margin: 7vh 3vw;
+        
+    }
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -27,6 +36,42 @@ nav {
 .logo {
     padding: 40px;
 }
+
+@media only screen and (max-width:431px){
+
+    .logo{
+        padding:0px;
+        margin-top:7vh;
+        margin-left:5vw;
+    }
+
+    .logo img{
+        width:25vw;
+        padding:0vw;
+        margin-left:1vw;
+        height:auto;
+    }
+
+    section{
+        display: flex;
+        flex-direction:column-reverse;
+        height:auto;
+    }
+
+    #side_image {
+        width:25vw;
+        height:auto;
+    }
+
+}
+
+.options a{
+    text-decoration: none;
+    color:black;
+
+}
+
+
 
 .heading {
     font-size: 1.53em;
@@ -44,6 +89,15 @@ section {
 
     width: 100%;
     height: auto
+}
+
+@media only screen and (max-width:431px){
+    #side_image {
+        width:80vw;
+        height:auto;
+        margin-left:9vw;
+        margin-top:15vh;
+    }
 }
 
 .main_content p {
@@ -262,4 +316,12 @@ footer li {
 .email img {
     width: 1.5vw;
     height: auto;
+}
+
+@media only screen and (max-width:431px){
+    body{
+        /* background-color: #2E65F8; */
+    }
+
+
 }
