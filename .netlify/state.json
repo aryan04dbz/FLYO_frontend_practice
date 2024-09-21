@@ -1,0 +1,21 @@
+{
+	"siteId": "d0a4108a-a145-45ac-9f27-e94055c49797",
+	"geolocation": {
+		"data": {
+			"city": "Asansol",
+			"country": {
+				"code": "IN",
+				"name": "India"
+			},
+			"postal_code": "713325",
+			"subdivision": {
+				"code": "WB",
+				"name": "West Bengal"
+			},
+			"timezone": "Asia/Kolkata",
+			"latitude": 23.6771,
+			"longitude": 86.95
+		},
+		"timestamp": 1726899275523
+	}
+}
