@@ -183,7 +183,7 @@ section {
 }
 
 .heading2 a {
-    color: rgb(45, 241, 45);
+    color: #4C9688;
     font-family: 'Open Sans', sans-serif;
     ;
     padding-left: 50px;
@@ -219,7 +219,7 @@ section {
 
 .testimony_content {
     display: flex;
-    gap: 5%;
+    gap:5%;
 }
 
 .testimony_content h4 {
@@ -275,7 +275,7 @@ section {
 }
 
 .footer {
-    height: 50vh;
+    height: 81vh;
     background-color: #07053A;
     display: flex;
     justify-content: center;
@@ -441,6 +441,163 @@ footer li {
     }
 
     #text2_upper{
-        font-size:em;
+        font-size:1em;
+        padding-left:0px;
+        text-align: center;
+        color: grey;
+        padding:0px;
+        margin:2vh 0vw;
+        padding:0px 3.3vw;
+    }
+
+    #text2_lower{
+        font-size:1em;
+        padding-left:2vw;
+        text-align: center;
+        color: grey;
+        padding:0px;
+        margin:2vh 0vw;
+        padding:0px 3.3vw;
+    }
+
+    .heading2 a{
+        padding:0px;
+        margin:19vw;
+        text-underline-offset: 0.7em;
+    }
+
+    .testimony{
+        padding:0px;
+        margin:0px;
+        margin:20vh 2vw;
+        margin-top:12vh;
+        margin-left:7vw;
+        width:35vh;
+        height:auto;
+        padding:0px 1vh;
+    }
+
+    #testimony-text{
+        font-size:0.8em;
+    }
+
+    .quotation_marks img{
+        width:5vw;
+        margin-top:2vh;
+    }
+
+    #avatar-testimonial{
+        width:10vw;
+        height:5vh;
+        margin-top:1vh;
+    }
+    .testimony_content h4{
+        font-size:0.88em;
+    }
+
+    .client-details p{
+        font-size:0.5em;
+        color:rgb(100, 99, 99);
+        font-weight:50em;
+        display: flex;
+        flex-direction: column;
+        gap:0.5vh;
+    }
+
+    .hero2{
+        margin-top:0vh;
+        display: flex;
+        flex-direction: column;
+        height:66vh;
+    }
+
+    .side_text3{
+        width:85vw;
+        height:auto;
+        flex-shrink:0;
+        padding:0px;
+        margin:0px;
+        margin-top:5vh;
+        text-align: center;
+    }
+
+    .side_text3 h3{
+        font-size:1.5em;
+        white-space:nowrap;
+        margin-bottom:2vh;
+    }
+
+    .side_text3 p{
+        width:84vw;
+        line-height:4vh;
+        
+    }
+
+    #email2{
+        margin-top:5vh;
+        margin-left:10vw;
+        padding:2vh 37vw;
+        padding-left:1vw;
+        border-radius:0.3em;
+    }
+
+    #button2{
+        margin-top:1vh;
+        margin-left:10vw;
+        padding:1.5vh 22.5vw;
+        border-radius: 0.3em;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .content1{
+        margin-top:12vh;
+    }
+    #logo2{
+        width:55vw;
+        margin-left:5vw;
+    }
+
+    .contact{
+        margin-left:5vw;
+    }
+
+    .phone img{
+        width:6vw;
+    }
+
+    .email img{
+        width:6vw;
+    }
+
+    .phone{
+        gap:5vw;
+    }
+
+    .email{
+        gap:5vw;
+    }
+
+    .content2{
+        margin-left:9vw;
+        margin-top:5vh;
+    }
+
+    .content3{
+        margin-left:9vw;
+        margin-top:3vh;
+    }
+
+    .content4{
+        margin-left:30vw;
+        margin-top:3vh;
+    }
+
+    .content4 img{
+        width:10vw;
     }
 }
