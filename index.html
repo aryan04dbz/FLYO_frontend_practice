@@ -12,7 +12,7 @@
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-    </style>
+  </style>
 
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
@@ -31,58 +31,9 @@
 
 <body>
 
-  <!-- Features
-  Team
-  Sign In
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
-
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
-
-  See how Fylo works
-
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
-
-  Kyle Burton
-  Founder & CEO, Huddle
-
-  Get early access today
-
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
-
-  Get Started For Free
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy -->
-
-  
-
   <nav>
     <div class="logo">
-      <img src=".\images\logo.svg" alt="logo">
+      <a href="#"><img src=".\images\logo.svg" alt="logo"></a>
     </div>
     <div class="options">
       <ul>
@@ -96,15 +47,21 @@
   <section>
     <div class="main_content">
       <div class="heading">
-        <h1>All your files in one secure </h1>
-        <h1>location, accessible anywhere.</h1>
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+      </div>
+      <div class="content-under-heading">
+        <p> Fylo stores your most important files in one secure location.Access them wherever you need, share and collaborate with friends,family, and co-workers.</p>
+      </div>
+      <div class="email-button">
+        <div class="email">
+          <input type="email" placeholder="Enter your email" id="email">
+        </div>
+        <div class="button">
+          <button id="button">Get Started</button>
+        </div>
       </div>
 
-      <p> Fylo stores your most important files in one secure location.Access</p>
-      <p>them wherever you need, share and collaborate with friends,family, and co-workers.</p>
 
-      <input type="email" placeholder="Enter your email" id="email">
-      <button id="button">Get Started</button>
     </div>
     <div class="main_image"><img id="side_image" src=".\images\illustration-1.svg" alt="illustration"></div>
   </section>
@@ -115,11 +72,12 @@
     <div class="heading2">
       <h1>Stay productive, wherever you are</h1>
 
-      <p id="text2_upper">Never let location be an issue when accessing your files. Fylo has you 
+      <p id="text2_upper">Never let location be an issue when accessing your files. Fylo has you
         <br>
-         covered for all of your file storage needs.
+        covered for all of your file storage needs.
       </p>
-      <p id="text2_lower">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!
+      <p id="text2_lower">Securely share files and folders with friends, family and colleagues for live collaboration.
+        No email attachments required!
       </p>
 
       <a href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt="arrow link"></a>
@@ -130,7 +88,8 @@
           <img src="./images/icon-quotes.svg" alt="quotation_marks">
         </div>
 
-        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become
+          a well-oiled collaboration machine.
         </p>
 
         <div class="testimony_content">
@@ -148,7 +107,7 @@
       </div>
 
     </div>
-    
+
     <div class="img2">
       <div class="ill_2">
         <img src="./images/illustration-2.svg" alt="illustration-2">
@@ -157,16 +116,17 @@
   </section>
 
   <div class="hero2">
-      <div class="side_text3">
-        <h3>Get early access today</h3>
-        <p>It only takes a minute to sign up and our free starter tier is extremely generous.If you have any questions, our support team would be happy to help you. 
-        </p>
-      </div>
+    <div class="side_text3">
+      <h3>Get early access today</h3>
+      <p>It only takes a minute to sign up and our free starter tier is extremely generous.If you have any questions,
+        our support team would be happy to help you.
+      </p>
+    </div>
 
-      <div class="email2">
-        <input type="email" placeholder="Enter your email" id="email2">
-        <input type="button" value="Get Started For Free" id="button2">
-      </div>
+    <div class="email2">
+      <input type="email" placeholder="Enter your email" id="email2">
+      <input type="button" value="Get Started For Free" id="button2">
+    </div>
   </div>
 
   <footer>
@@ -176,7 +136,7 @@
         <div class="contact">
           <div class="phone">
             <img src="./images/phone.svg" alt="">
-            <p>  Phone: +1-543-123-4567</p>
+            <p> Phone: +1-543-123-4567</p>
           </div>
 
           <div class="email">
@@ -191,57 +151,32 @@
 
       <div class="content2">
         <ul>
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Press</li>
-          <li>Blog</li>   
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
         </ul>
       </div>
 
       <div class="content3">
         <ul></ul>
-          <li>Contact Us</li>
-          <li>Terms</li>
-          <li>Privacy</li>  
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
         </ul>
       </div>
 
       <div class="content4">
-        <img src="./images/facebook.svg" alt="facebook">
-        <img src="./images/twitter.svg" alt="twitter">
-        <img src="./images/instagram.svg" alt="instagram">
-        
+        <a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
+        <a href="#"><img src="./images/twitter.svg" alt="twitter"></a>
+        <a href="#"><img src="./images/instagram.svg" alt="instagram"></a>
       </div>
 
-        
-        
+
+
     </div>
   </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer> -->
 </body>
 
 </html>
